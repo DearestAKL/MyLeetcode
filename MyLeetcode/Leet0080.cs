@@ -37,13 +37,51 @@ class Leet0080
 {
     static void Main()
     {
+        MyRemoveDuplicates(new int[9] { 0, 0, 1, 1, 1, 1, 2, 3, 3 });
+    }
 
+    public static int MyRemoveDuplicates(int[] nums)
+    {
+        int length = 0;
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (i >= 2)
+            {
+                if (nums[i] != nums[length - 2])
+                {
+                    nums[length] = nums[i];
+                    length++;
+                }
+            }
+            else
+            {
+                length++;
+            }
+        }
+        return length;
     }
 
     public static int RemoveDuplicates(int[] nums)
     {
+        int n = nums.Length;
+        if(n <= 2)
+        {
+            return n;
+        }
 
-        return 0;
+        int slow = 2, fast = 2;
+        while(fast < n)
+        {
+            if(nums[slow-2] != nums[fast])
+            {
+                nums[slow] = nums[fast];
+                slow++;
+            }
+            fast++;
+        }
+
+        return slow;
     }
 
 }

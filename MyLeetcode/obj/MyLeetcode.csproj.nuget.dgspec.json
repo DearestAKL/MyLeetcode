@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Github\\MyGithub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj": {}
+    "F:\\GitHub\\_MyGitHub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj": {}
   },
   "projects": {
-    "E:\\Github\\MyGithub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj": {
+    "F:\\GitHub\\_MyGitHub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\MyGithub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj",
+        "projectUniqueName": "F:\\GitHub\\_MyGitHub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj",
         "projectName": "MyLeetcode",
-        "projectPath": "E:\\Github\\MyGithub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\MyGithub\\MyLeetcode\\MyLeetcode\\obj\\",
+        "projectPath": "F:\\GitHub\\_MyGitHub\\MyLeetcode\\MyLeetcode\\MyLeetcode.csproj",
+        "packagesPath": "C:\\Users\\阿卡林\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\_MyGitHub\\MyLeetcode\\MyLeetcode\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\阿卡林\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,12 +22,12 @@ nums2.length == n
  */
 class Leet0088
 {
-    static void Main()
-    {
-        int[] nums1 = { 1, 2, 3, 0, 0, 0 };
-        int[] nums2 = { 2, 5, 6 };
-        MyMerge(nums1, 3, nums2, 3);
-    }
+    //static void Main()
+    //{
+    //    int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+    //    int[] nums2 = { 2, 5, 6 };
+    //    MyMerge(nums1, 3, nums2, 3);
+    //}
 
     public static void MyMerge(int[] nums1, int m, int[] nums2, int n)
     {
