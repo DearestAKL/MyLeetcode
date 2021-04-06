@@ -1,0 +1,13 @@
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\bin\Debug\netcoreapp3.1\MyLeetcode.exe
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\bin\Debug\netcoreapp3.1\MyLeetcode.deps.json
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\bin\Debug\netcoreapp3.1\MyLeetcode.runtimeconfig.json
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\bin\Debug\netcoreapp3.1\MyLeetcode.runtimeconfig.dev.json
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\bin\Debug\netcoreapp3.1\MyLeetcode.dll
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\bin\Debug\netcoreapp3.1\MyLeetcode.pdb
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.csprojAssemblyReference.cache
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.AssemblyInfoInputs.cache
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.AssemblyInfo.cs
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.csproj.CoreCompileInputs.cache
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.dll
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.pdb
+E:\Github\MyGithub\MyLeetcode\MyLeetcode\obj\Debug\netcoreapp3.1\MyLeetcode.genruntimeconfig.cache
