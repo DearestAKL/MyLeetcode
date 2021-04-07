@@ -35,10 +35,10 @@ nums 已按升序排列
  */
 class Leet0080
 {
-    static void Main()
-    {
-        MyRemoveDuplicates(new int[9] { 0, 0, 1, 1, 1, 1, 2, 3, 3 });
-    }
+    //static void Main()
+    //{
+    //    MyRemoveDuplicates(new int[9] { 0, 0, 1, 1, 1, 1, 2, 3, 3 });
+    //}
 
     public static int MyRemoveDuplicates(int[] nums)
     {
