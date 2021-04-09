@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 153. 寻找旋转排序数组中的最小值
+// 153. 寻找旋转排序数组中的最小值I
 
 /*
 已知一个长度为 n 的数组，预先按照升序排列，经由 1 到 n 次 旋转 后，得到输入数组。例如，原数组 nums = [0,1,2,4,5,6,7] 在变化后可能得到：
@@ -34,11 +34,11 @@ nums 原来是一个升序排序的数组，并进行了 1 至 n 次旋转
  */
 class Leet0153
 {
-    static void Main()
-    {
-        //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
-        MyFindMin(new int[] { 3, 4, 5, 1, 2 });
-    }
+    //static void Main()
+    //{
+    //    //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
+    //    MyFindMin(new int[] { 3, 4, 5, 1, 2 });
+    //}
 
     public static int MyFindMin(int[] nums)
     {
@@ -62,5 +62,25 @@ class Leet0153
         }
 
         return minNum;
+    }
+
+    public static int FindMin(int[] nums)
+    {
+        int low = 0;
+        int high = nums.Length - 1;
+        while(low < high)
+        {
+            int pivot = low + (high - low) / 2;
+            if(nums[pivot] < nums[high])
+            {
+                high = pivot;
+            }
+            else
+            {
+                low = pivot + 1;
+            }
+        }
+
+        return nums[low];
     }
 }
