@@ -29,12 +29,12 @@ nums 原来是一个升序排序的数组，并进行了 1 至 n 次旋转
  */
 class Leet0154
 {
-    static void Main()
-    {
-        //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
-        //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
-        MyFindMin(new int[] { 2, 2, 3, 2, 2 });
-    }
+    //static void Main()
+    //{
+    //    //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
+    //    //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
+    //    MyFindMin(new int[] { 2, 2, 3, 2, 2 });
+    //}
 
     public static int MyFindMin(int[] nums)
     {
