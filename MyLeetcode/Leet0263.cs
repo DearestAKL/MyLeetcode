@@ -32,12 +32,12 @@
  */
 class Leet0263
 {
-    static void Main()
-    {
-        //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
-        //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
-        MyIsUgly(6);
-    }
+    //static void Main()
+    //{
+    //    //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
+    //    //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
+    //    MyIsUgly(6);
+    //}
 
     public static bool MyIsUgly(int n)
     {
