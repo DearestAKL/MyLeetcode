@@ -21,12 +21,12 @@
  */
 class Leet0264
 {
-    static void Main()
-    {
-        //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
-        //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
-        NthUglyNumber(10);
-    }
+    //static void Main()
+    //{
+    //    //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
+    //    //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
+    //    NthUglyNumber(10);
+    //}
 
     public static int NthUglyNumber(int n)
     {
