@@ -28,10 +28,10 @@
  */
 class Leet0179
 {
-    static void Main()
-    {
-        LargestNumber(new int[] { 3, 30, 34, 5, 9 });
-    }
+    //static void Main()
+    //{
+    //    LargestNumber(new int[] { 3, 30, 34, 5, 9 });
+    //}
 
     public static string LargestNumber(int[] nums)
     {
