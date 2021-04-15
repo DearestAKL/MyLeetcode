@@ -34,20 +34,20 @@ insert、search 和 startsWith 调用次数 总计 不超过 3 * 104 次
  */
 class Leet0208
 {
-    static void Main()
-    {
-        // Your Trie object will be instantiated and called as such:
+    //static void Main()
+    //{
+    //    // Your Trie object will be instantiated and called as such:
 
-        var word = "apple";
-        var prefix = "app";
+    //    var word = "apple";
+    //    var prefix = "app";
 
-        Trie obj = new Trie();
-        bool param_1 = obj.Search(word);
-        obj.Insert(word);
-        bool param_2 = obj.Search(word);
-        bool param_3 = obj.StartsWith(prefix);
+    //    Trie obj = new Trie();
+    //    bool param_1 = obj.Search(word);
+    //    obj.Insert(word);
+    //    bool param_2 = obj.Search(word);
+    //    bool param_3 = obj.StartsWith(prefix);
  
-    }
+    //}
 
     public class Trie
     {
