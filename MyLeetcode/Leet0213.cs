@@ -28,10 +28,10 @@
  */
 class Leet0213
 {
-    static void Main()
-    {
-        Rob(new int[] { 1, 2, 3, 1 });
-    }
+    //static void Main()
+    //{
+    //    Rob(new int[] { 1, 2, 3, 1 });
+    //}
 
     public static int Rob(int[] nums)
     {
