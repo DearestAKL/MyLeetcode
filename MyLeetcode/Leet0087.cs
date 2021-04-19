@@ -41,7 +41,7 @@ s1 和 s2 由小写英文字母组成
 class Leet0087
 {
     Dictionary<char, int> map = new Dictionary<char, int>();
-    int[ , , ] memo;
+    int[,,] memo;
     string s1, s2;
 
     public bool IsScramble(string s1, string s2)
@@ -54,9 +54,9 @@ class Leet0087
     }
 
     // 第一个字符串从 i1 开始，第二个字符串从 i2 开始，子串的长度为 length，是否和谐
-    public bool DFS(int i1,int i2,int length)
+    public bool DFS(int i1, int i2, int length)
     {
-        if(memo[i1,i2,length] != 0)
+        if (memo[i1, i2, length] != 0)
         {
             return memo[i1, i2, length] == 1;
         }
@@ -79,28 +79,28 @@ class Leet0087
         for (int i = 1; i < length; i++)
         {
             //不交换的情况
-            if(DFS(i1, i2, i) && DFS(i1+ i, i2+ i, length - i))
+            if (DFS(i1, i2, i) && DFS(i1 + i, i2 + i, length - i))
             {
                 memo[i1, i2, length] = 1;
                 return true;
             }
 
             //交换的情况
-            if (DFS(i1, i2+length-i, i) && DFS(i1 + i, i2, length - i))
+            if (DFS(i1, i2 + length - i, i) && DFS(i1 + i, i2, length - i))
             {
                 memo[i1, i2, length] = 1;
                 return true;
             }
         }
-        
+
         memo[i1, i2, length] = -1;
         return false;
     }
 
-    public bool CheckIfSimlar(int i1,int i2,int length)
+    public bool CheckIfSimlar(int i1, int i2, int length)
     {
         map.Clear();
-        for (int i = i1; i < i1+length; i++)
+        for (int i = i1; i < i1 + length; i++)
         {
             char c = s1[i];
             if (map.ContainsKey(c))
@@ -113,7 +113,7 @@ class Leet0087
             }
         }
 
-        for (int i = i2; i < i2+length; i++)
+        for (int i = i2; i < i2 + length; i++)
         {
             char c = s2[i];
             if (map.ContainsKey(c))
@@ -128,7 +128,7 @@ class Leet0087
 
         foreach (var item in map)
         {
-            if(item.Value != 0)
+            if (item.Value != 0)
             {
                 return false;
             }
