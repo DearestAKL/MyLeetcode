@@ -35,14 +35,9 @@ for (int i = 0; i < len; i++) {
 -104 <= nums[i] <= 104
 nums 已按升序排列
  */
-class Leet0080
+public class Leet0080
 {
-    //static void Main()
-    //{
-    //    MyRemoveDuplicates(new int[9] { 0, 0, 1, 1, 1, 1, 2, 3, 3 });
-    //}
-
-    public static int MyRemoveDuplicates(int[] nums)
+    public int MyRemoveDuplicates(int[] nums)
     {
         int length = 0;
 
@@ -64,7 +59,7 @@ class Leet0080
         return length;
     }
 
-    public static int RemoveDuplicates(int[] nums)
+    public int RemoveDuplicates(int[] nums)
     {
         int n = nums.Length;
         if(n <= 2)

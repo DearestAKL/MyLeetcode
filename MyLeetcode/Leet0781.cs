@@ -31,16 +31,9 @@ answers[i] 是在 [0, 999] 范围内的整数。
 
  */
 
-class Leet783
+public class Leet783
 {
-    //static void Main()
-    //{
-    //    int[] answers = new int[5] { 1, 0, 1, 0, 0 };
-    //    int num = NumRabbits(answers);
-    //    Console.WriteLine(num);
-    //    Console.ReadLine();
-    //}
-    private static int NumRabbits(int[] answers)
+    private int NumRabbits(int[] answers)
     {
         Dictionary<int, int> dic = new Dictionary<int, int>();
 

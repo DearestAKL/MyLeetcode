@@ -19,16 +19,9 @@
 提示：
 1 <= n <= 1690
  */
-class Leet0264
+public class Leet0264
 {
-    //static void Main()
-    //{
-    //    //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
-    //    //MyFindMin(new int[] { 3, 4, 5, 1, 2 });
-    //    NthUglyNumber(10);
-    //}
-
-    public static int NthUglyNumber(int n)
+    public int NthUglyNumber(int n)
     {
         int[] array = new int[n];
         array[0] = 1;

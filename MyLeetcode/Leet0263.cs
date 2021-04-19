@@ -30,7 +30,7 @@
 提示：
 -231 <= n <= 231 - 1
  */
-class Leet0263
+public class Leet0263
 {
     //static void Main()
     //{
@@ -39,7 +39,7 @@ class Leet0263
     //    MyIsUgly(6);
     //}
 
-    public static bool MyIsUgly(int n)
+    public bool MyIsUgly(int n)
     {
         if (n <= 0) { return false; }
 

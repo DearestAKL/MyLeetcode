@@ -7,13 +7,9 @@
 
 
  */
-class Leet0783
+public class Leet0783
 {
-    //static void Main()
-    //{
-    //    MinDiffInBST(new TreeNode(1, new TreeNode(2), new TreeNode(4)));
-    //}
-    public static int MinDiffInBST(TreeNode root)
+    public int MinDiffInBST(TreeNode root)
     {
         int result = int.MaxValue;
         TreeNode pre = null;

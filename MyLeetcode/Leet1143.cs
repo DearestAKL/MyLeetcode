@@ -32,16 +32,9 @@ text1 和 text2 仅由小写英文字符组成
  */
 
 
-class Leet1143
+public class Leet1143
 {
-    //static void Main()
-    //{
-    //    int len = LongestCommonSubsequence("abcde", "ace");
-    //    Console.WriteLine(len);
-    //    Console.ReadLine();
-    //}
-
-    private static int LongestCommonSubsequence(string text1,string text2)
+    private int LongestCommonSubsequence(string text1,string text2)
     {
         int row = text1.Length + 1;
         int column = text2.Length + 1;

@@ -32,15 +32,9 @@ n == nums.length
 nums 中的所有整数 互不相同
 nums 原来是一个升序排序的数组，并进行了 1 至 n 次旋转
  */
-class Leet0153
+public class Leet0153
 {
-    //static void Main()
-    //{
-    //    //FindMin(new int[] { 4, 5, 6, 7, 0, 1, 2 });
-    //    MyFindMin(new int[] { 3, 4, 5, 1, 2 });
-    //}
-
-    public static int MyFindMin(int[] nums)
+    public int MyFindMin(int[] nums)
     {
         int length = nums.Length;
         int minNum = nums[length - 1];
@@ -64,7 +58,7 @@ class Leet0153
         return minNum;
     }
 
-    public static int FindMin(int[] nums)
+    public int FindMin(int[] nums)
     {
         int low = 0;
         int high = nums.Length - 1;

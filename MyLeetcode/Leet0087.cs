@@ -38,7 +38,7 @@ s1.length == s2.length
 1 <= s1.length <= 30
 s1 和 s2 由小写英文字母组成
  */
-class Leet0087
+public class Leet0087
 {
     Dictionary<char, int> map = new Dictionary<char, int>();
     int[,,] memo;

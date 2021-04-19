@@ -26,14 +26,14 @@
 这会影响到程序的时间复杂度吗？会有怎样的影响，为什么？
 
  */
-class Leet0081
+public class Leet0081
 {
     //static void Main()
     //{
     //    bool ss = Search(new int[7] { 2, 5, 6, 0, 0, 1, 2 }, 3);
     //}
 
-    private static bool Search(int[] nums,int target)
+    private bool Search(int[] nums,int target)
     {
         int length = nums.Length;
         if(length == 0) { return false; }

@@ -22,7 +22,7 @@ nums2.length == n
 1 <= m + n <= 200
 -109 <= nums1[i], nums2[i] <= 109
  */
-class Leet0088
+public class Leet0088
 {
     //static void Main()
     //{
@@ -31,7 +31,7 @@ class Leet0088
     //    MyMerge(nums1, 3, nums2, 3);
     //}
 
-    public static void MyMerge(int[] nums1, int m, int[] nums2, int n)
+    public void MyMerge(int[] nums1, int m, int[] nums2, int n)
     {
         int tail = m + n - 1;
         int p1 = m - 1;
@@ -66,7 +66,7 @@ class Leet0088
         //Console.ReadLine();
     }
 
-    public static void Merge(int[] nums1, int m, int[] nums2, int n)
+    public void Merge(int[] nums1, int m, int[] nums2, int n)
     {
         int p1 = m - 1, p2 = n - 1;
         int tail = m + n - 1;

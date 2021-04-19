@@ -26,14 +26,9 @@
 1 <= nums.length <= 100
 0 <= nums[i] <= 1000
  */
-class Leet0213
+public class Leet0213
 {
-    //static void Main()
-    //{
-    //    Rob(new int[] { 1, 2, 3, 1 });
-    //}
-
-    public static int Rob(int[] nums)
+    public int Rob(int[] nums)
     {
         int length = nums.Length;
 
@@ -50,7 +45,7 @@ class Leet0213
         return Math.Max(RobRange(nums, 0, length - 1), RobRange(nums, 1, length));
     }
 
-    public static int RobRange(int[] nums, int start, int end)
+    public int RobRange(int[] nums, int start, int end)
     {
         int first = nums[start];
         int second = Math.Max(nums[start], nums[start + 1]);

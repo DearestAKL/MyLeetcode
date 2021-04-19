@@ -32,9 +32,9 @@ trie.search("app");     // 返回 True
 word 和 prefix 仅由小写英文字母组成
 insert、search 和 startsWith 调用次数 总计 不超过 3 * 104 次
  */
-class Leet0208
+public class Leet0208
 {
-    //static void Main()
+    //void Main()
     //{
     //    // Your Trie object will be instantiated and called as such:
 

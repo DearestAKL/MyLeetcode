@@ -26,16 +26,12 @@
 1 <= nums.length <= 100
 0 <= nums[i] <= 109
  */
-class Leet0179
+public class Leet0179
 {
-    //static void Main()
-    //{
-    //    LargestNumber(new int[] { 3, 30, 34, 5, 9 });
-    //}
-
-    public static string LargestNumber(int[] nums)
+    public string LargestNumber(int[] nums)
     {
         int num = 0;
+
         for (int i = 0; i < nums.Length; i++)
         {
             for (int j = i+1; j < nums.Length; j++)
@@ -51,7 +47,7 @@ class Leet0179
 
         bool IsNeedExchange(int x,int y)
         {
-            int sx = 10, sy = 10;
+            long sx = 10, sy = 10;
             while (sx <= x)
             {
                 sx *= 10;
@@ -63,12 +59,19 @@ class Leet0179
             return sx * y + x > sy * x + y;
         }
 
-        string str = "";
-        for (int i = 0; i < nums.Length; i++)
+
+        if(nums.Length == 0 || nums[0]==0)
         {
-            str = $"{str}{nums[i]}";
+            return "0";
         }
 
-        return str;
+
+        StringBuilder ret = new StringBuilder();
+        for (int i = 0; i < nums.Length; i++)
+        {
+            ret.Append(nums[i]);
+        }
+
+        return ret.toString();
     }
 }
