@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 // 179. 最大整数
 
@@ -72,6 +73,6 @@ public class Leet0179
             ret.Append(nums[i]);
         }
 
-        return ret.toString();
+        return ret.ToString();
     }
 }
